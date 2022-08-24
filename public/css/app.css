@@ -92,3 +92,92 @@ header .header-banner span {
   overflow: hidden;
 }
 
+.main-section {
+  background-color: #1c1c1c;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.main-section .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  color: white;
+}
+
+.main-section .tag {
+  padding: 8px 20px;
+  background-color: #0282f9;
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: -25px;
+  left: 150px;
+}
+
+.main-section .btn {
+  padding: 10px;
+  border: 1px solid #0282f9;
+}
+
+.main-section .btn a {
+  color: white;
+}
+
+.main-section .blue {
+  border: none;
+  background-color: #0282f9;
+  display: block;
+  width: 210px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  width: calc(16.6666666667% - 20px);
+  margin-top: 10px;
+}
+
+.card .product-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card .product-image img {
+  height: 100%;
+}
+
+.card .text {
+  margin: 10px 0;
+}
+
+.banner {
+  background-color: #0282f9;
+  padding: 20px;
+}
+
+.banner .banner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner .banner-content .icon-card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .banner-content .icon-card span {
+  margin: 0 10px;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.banner .banner-content .icon-card img {
+  width: 40px;
+}
+

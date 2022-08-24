@@ -13,7 +13,13 @@
     @include('partials.header')
 
     {{-- Jumbotron --}}
-    @include('components.jumbotron')
+    @include('partials.jumbotron')
+
+    <main>
+        {{-- Main Content --}}
+        @yield('content')
+
+    </main>
 
 
 </body>

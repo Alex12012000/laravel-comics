@@ -1,0 +1,25 @@
+.banner {
+    background-color: $main_color;
+    padding: 20px;
+    .banner-content {
+        display: flex;
+        justify-content: space-between;
+        .icon-card {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                margin: 0 10px;
+                font-size: 13px;
+                color: white;
+                text-transform: uppercase;
+            }
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+}

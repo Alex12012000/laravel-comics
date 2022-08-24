@@ -1,0 +1,43 @@
+
+.main-section {
+    background-color: #1c1c1c;
+    position: relative;
+    padding-bottom: 40px;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 40px;
+        color: white;
+        
+    }
+
+    .tag {
+        padding: 8px 20px;
+        background-color: $main_color;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        top: -25px;
+        left: 150px;
+    }
+
+    .btn {
+        padding: 10px;
+        border: 1px solid $main_color;
+
+        a {
+            color: white;
+        }
+    }
+
+    .blue {
+        border: none;
+        background-color: $main_color;
+        display: block;
+        width: 210px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+    }
+}
