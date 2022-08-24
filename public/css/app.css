@@ -182,7 +182,7 @@ header .header-banner span {
 }
 
 .up-footer {
-  background-image: url("");
+  background-image: url("/img/footer-bg.jpg");
   height: 400px;
   display: flex;
   justify-content: space-between;
