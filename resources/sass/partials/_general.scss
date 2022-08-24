@@ -1,0 +1,29 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// COMMON
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
