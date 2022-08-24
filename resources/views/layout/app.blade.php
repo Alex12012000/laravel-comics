@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-
+    {{-- Header --}}
     @include('partials.header')
 
     {{-- Jumbotron --}}
     @include('partials.jumbotron')
 
     <main>
+        
         {{-- Main Content --}}
         @yield('content')
 
     </main>
+
+    {{-- Footer --}}
+    @include('partials.footer')
 
 
 </body>

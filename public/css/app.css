@@ -181,3 +181,86 @@ header .header-banner span {
   width: 40px;
 }
 
+.up-footer {
+  background-image: url("");
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.up-footer .left-side {
+  display: flex;
+}
+
+.up-footer .left-side div {
+  margin: 5px 10px;
+  color: white;
+}
+
+.up-footer .left-side ul {
+  padding: 20px 0;
+}
+
+.up-footer .left-side ul li {
+  margin: 5px 0;
+}
+
+.up-footer .left-side ul li a {
+  color: grey;
+}
+
+.up-footer .right-side {
+  position: absolute;
+  bottom: -40px;
+  right: 150px;
+}
+
+.up-footer .right-side img {
+  width: 500px;
+}
+
+.bottom-footer {
+  height: 100px;
+  background-color: #303030;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-footer .contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-footer .btn {
+  padding: 10px;
+  border: 1px solid #0282f9;
+}
+
+.bottom-footer .btn a {
+  color: white;
+}
+
+.bottom-footer .socials {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-footer .socials .icon {
+  display: flex;
+}
+
+.bottom-footer .socials .icon a {
+  margin: 0 5px;
+  width: 30px;
+}
+
+.bottom-footer .socials span {
+  color: #0282f9;
+  margin: 0 5px;
+}
+
