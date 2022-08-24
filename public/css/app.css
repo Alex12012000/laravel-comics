@@ -86,3 +86,9 @@ header .header-banner span {
   margin-left: 10px;
 }
 
+.jumbotron {
+  height: 300px;
+  margin-top: 22px;
+  overflow: hidden;
+}
+

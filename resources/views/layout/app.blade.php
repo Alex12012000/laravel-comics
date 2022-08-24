@@ -12,5 +12,9 @@
 
     @include('partials.header')
 
+    {{-- Jumbotron --}}
+    @include('components.jumbotron')
+
+
 </body>
 </html>
