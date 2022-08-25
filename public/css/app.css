@@ -304,6 +304,9 @@ header .header-banner span {
 .comic-section .main-comic-bottom .bottom-content .column ul li a {
   color: #0282f9;
 }
+.comic-section .main-comic-bottom .bottom-content .column ul li span {
+  color: black;
+}
 .comic-section .main-comic-bottom .bottom-content .column li:first-child {
   border-top: 1px solid lightgray;
 }
