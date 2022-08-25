@@ -26,13 +26,14 @@
     }
 
     .right-side {
-        position: absolute;
-        bottom: -40px;
-        right: 150px;
+        
 
         img {
             width: 500px;
-
+            position: absolute;
+            bottom: -40px;
+            right: 150px;
+            z-index: 1;
         }
     }
 }

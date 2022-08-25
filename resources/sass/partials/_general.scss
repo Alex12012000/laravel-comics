@@ -20,10 +20,16 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 // COMMON
 .container {
     width: 80%;
+    margin: 0 auto;
+}
+
+.s-container {
+    width: 70%;
     margin: 0 auto;
 }
